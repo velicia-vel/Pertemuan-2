@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Informasi TMII</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Website Informasi TMII</h1>
+        <p>Taman Mini Indonesia Indah — Miniatur Budaya dan Alam Nusantara</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#profil">Profil</a>
+        <a href="#galeri">Galeri</a>
+        <a href="#informasi">Informasi</a>
+    </nav>
+
+    <main class="container">
+        <article id="profil">
+            <h2>Profil TMII</h2>
+            <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Indonesia%20blank%20map%20colored.svg?width=900"
+                alt="Peta kepulauan Indonesia">
+            <p>
+                Taman Mini Indonesia Indah (TMII) adalah kawasan wisata budaya seluas sekitar 147 hektare
+                di Jakarta Timur yang diresmikan pada 20 April 1975. TMII merangkum kekayaan budaya
+                Indonesia dari Sabang sampai Merauke dalam bentuk anjungan daerah, museum, taman flora-fauna,
+                hingga danau berisi miniatur kepulauan Nusantara — menjadikannya "Indonesia dalam satu kawasan".
+            </p>
+
+            <video controls width="100%">
+                <source src="https://share.google/If19fU9jB4G6VvLFp" type="video/mp4">
+                Browser Anda tidak mendukung pemutaran video.
+            </video>
+        </article>
+
+        <!-- ===== 2. Section Galeri baru ===== -->
+        <section id="galeri" style="grid-column: 1 / -1;">
+            <h2>Galeri</h2>
+            <p>Beberapa ikon budaya Nusantara yang diangkat dalam anjungan-anjungan TMII.</p>
+            <div class="gallery-grid">
+                <figure>
+                    <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Borobudur_Northwest_View.jpg?width=500"
+                        alt="Candi Borobudur">
+                    <figcaption>Anjungan Jawa Tengah — terinspirasi Candi Borobudur.</figcaption>
+                </figure>
+                <figure>
+                    <img src="https://commons.wikimedia.org/wiki/Special:FilePath/1_Tegalalang_rice_terrace_ubud_bali.jpg?width=500"
+                        alt="Sawah terasering Bali">
+                    <figcaption>Anjungan Bali — sawah terasering dan budaya Pulau Dewata.</figcaption>
+                </figure>
+                <figure>
+                    <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Komodo%20dragon%20(Varanus%20komodoensis).jpg?width=500"
+                        alt="Komodo">
+                    <figcaption>Museum Dunia Komodo — satwa purba khas Nusa Tenggara.</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <aside id="informasi">
+            <h3>Lokasi</h3>
+            <p>Jl. Raya Taman Mini, Jakarta Timur, DKI Jakarta.</p>
+            <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=106.87,-6.32,106.91,-6.28&layer=mapnik"
+                width="100%" height="300" style="border:0;"></iframe>
+        </aside>
+    </main>
+
+    <footer>© 2026 Website Informasi TMII</footer>
+
+</body>
+
+</html>
